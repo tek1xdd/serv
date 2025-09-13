@@ -1,0 +1,10 @@
+pro\gamely\license\web\AdminController.class
+pro\gamely\license\web\ApiController.class
+pro\gamely\license\model\LicenseKey.class
+pro\gamely\license\web\RootController.class
+pro\gamely\license\config\SecurityConfig.class
+pro\gamely\license\LicenseServerApplication.class
+pro\gamely\license\repo\LicenseKeyRepository.class
+pro\gamely\license\service\LicenseService.class
+pro\gamely\license\model\LicenseStatus.class
+pro\gamely\license\util\MacUtils.class

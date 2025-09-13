@@ -1,0 +1,14 @@
+<!doctype html><html lang="ru" xmlns:th="http://www.thymeleaf.org"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>License Server — Панель</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/custom.css" rel="stylesheet"></head>
+<body class="bg-dark text-light"><nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary">
+<div class="container-fluid"><a class="navbar-brand fw-bold" href="/admin">🔐 License Server</a>
+<div class="collapse navbar-collapse"><ul class="navbar-nav me-auto"><li class="nav-item"><a class="nav-link" href="/admin/keys">Ключи</a></li></ul>
+<a class="btn btn-outline-light btn-sm" href="/logout">Выйти</a></div></div></nav>
+<main class="container py-4"><div class="row g-3">
+<div class="col-md-4"><div class="card bg-secondary-subtle border-0 shadow-sm"><div class="card-body"><div class="fs-1">📦</div><div class="h5">Всего ключей</div><div class="display-6" th:text="${total}">0</div></div></div></div>
+<div class="col-md-4"><div class="card bg-success-subtle border-0 shadow-sm"><div class="card-body"><div class="fs-1">✅</div><div class="h5">Активные</div><div class="display-6" th:text="${active}">0</div></div></div></div>
+<div class="col-md-4"><div class="card bg-danger-subtle border-0 shadow-sm"><div class="card-body"><div class="fs-1">⛔</div><div class="h5">Отозванные</div><div class="display-6" th:text="${revoked}">0</div></div></div></div>
+</div></main></body></html>
