@@ -1,0 +1,4 @@
+body { background: radial-gradient(1200px 600px at 10% 10%, #1f1f1f, #0f0f10 60%); }
+.navbar-brand { letter-spacing: .5px; }
+.card { border-radius: 1rem; }
+.table code { font-size: .95rem; }
